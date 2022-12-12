@@ -1,19 +1,34 @@
-<h2>Contacto</h2>
-							<p>Si se encuentra interesado en comunicarse conmigo por favor utilizar esta sección o bien puede enviarme un correo electronico y/o contactarme por medio de mi número de telefono (WhatsApp o llamados).</p>
-							<div class="split style1">
-								<section>
-									<form action="send.php" method="post" name="form_contacto">
-										<div class="fields">
-											<div class="field half">
-												<label for="nombre">Nombre y apellido</label>
-												<input type="text" name="nombre" autocapitalize="words" id="nombre" />
+<!DOCTYPE html>
+<html>
+    <head> 
+        <meta charset="utf-8">
+        <title> Formulario para contacto </title>
+        <link rel="stylesheet" href="estilos.css">
+</head>
+
+<html>
+	<div id="titulo">
+		<h2>Contacto</h2>
+	</div>
+
+	<div id="formulario2">
+		<p>Si se encuentra interesado en comunicarse conmigo por favor utilizar esta sección o bien puede enviarme un correo electronico y/o contactarme por medio de mi número de telefono (WhatsApp o llamados).</p>
+			<div class="split style1">
+				<section>
+						<form action="send.php" method="post" name="form_contacto">
+								<div class="fields">
+											<div class="fieldhalf">
+											<label for="nombre">Nombre y apellido</label>
+											<input type="text" name="nombre" autocapitalize="words" id="nombre" />
 											</div>
-											<div class="field half">
-												<label for="email">E-mail</label>
-												<input type="text" name="email" id="email" />
+											<div class="fieldhalf">
+											<label for="email">E-mail</label>
+											<input type="text" name="email" id="email" />
 											</div>
 											<div class="field">
-												<label for="mensaje">Mensaje</label>
-												<textarea name="mensaje" id="mensaje" rows="8"></textarea>
+											<label for="mensaje">Mensaje</label>
+											<textarea name="mensaje" id="mensaje" rows="8"></textarea>
 											</div>
 										</div>
+									</div>
+</html>
